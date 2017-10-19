@@ -17,7 +17,7 @@
 while(@ARGV) {
 	$index = (shift @ARGV);
 }
-$bit = 30;				# highest bit with value
+$bit = 30;			# highest bit with value
 $bitVal = 2 ** $bit;		# compute decimal value of bit
 
 # convert from decimal to 31 bit binary number and store each bit in
