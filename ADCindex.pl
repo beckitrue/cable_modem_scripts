@@ -12,7 +12,7 @@
 
 # INPUT: decimal value of ADC ifIndex example: 11141128
 # OUTPUT: interface, CPU, slot, and chassis identifiers
-# AUTHOR: Becki True becki@anv.net
+# AUTHOR: Becki True becki@beckitrue.com
 
 while(@ARGV) {
 	$index = (shift @ARGV);
